@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+section#video{
+	width: 100%;
+	height: 500px;
+	background-color: lightgreen;
+	
+}
+section#foto{
+	width: 100%;
+	height: 1000px;
+	background-image: url(https://best-wallpaper.net/wallpaper/1024x768/1202/City-of-Paris-France-Eiffel-Tower_1024x768.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+section#image{
+	width: 100%;
+	height: 500px;
+	background-color: lightgreen;
+	svg {
+  width: 100%;
+}
+
+.house {
+  background: #7CFEF0;
+}
+
+rect,
+circle,
+.circlegroup,
+polygon {
+  transition: all 0.5s ease;
+}
+
+polygon:hover,
+rect:hover,
+circle:hover,
+.circlegroup:hover {
+  fill: #624CAB;
+}
+}
